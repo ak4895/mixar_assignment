@@ -1,0 +1,93 @@
+Step 6 - Error Metrics - 2025-11-10 12:28:38
+============================================================
+
+Computed metrics for 8 mesh files
+
+File: branch.obj
+  Vertices: 2767
+  Method: minmax
+    MSE: 0.0000007815
+    MAE: 0.0007340001
+    Max Error: 0.0025897249
+  Method: sphere
+    MSE: 0.0000023394
+    MAE: 0.0013248075
+    Max Error: 0.0042849292
+
+File: cylinder.obj
+  Vertices: 192
+  Method: minmax
+    MSE: 0.0000007966
+    MAE: 0.0006109482
+    Max Error: 0.0023533305
+  Method: sphere
+    MSE: 0.0000025736
+    MAE: 0.0013824182
+    Max Error: 0.0040354996
+
+File: explosive.obj
+  Vertices: 2844
+  Method: minmax
+    MSE: 0.0000001242
+    MAE: 0.0002752261
+    Max Error: 0.0010936410
+  Method: sphere
+    MSE: 0.0000004278
+    MAE: 0.0005743030
+    Max Error: 0.0018115602
+
+File: fence.obj
+  Vertices: 1090
+  Method: minmax
+    MSE: 0.0000001569
+    MAE: 0.0002728240
+    Max Error: 0.0011657607
+  Method: sphere
+    MSE: 0.0000003575
+    MAE: 0.0004939545
+    Max Error: 0.0018478295
+
+File: girl.obj
+  Vertices: 8400
+  Method: minmax
+    MSE: 0.0000002054
+    MAE: 0.0003698686
+    Max Error: 0.0013493907
+  Method: sphere
+    MSE: 0.0000003606
+    MAE: 0.0005222277
+    Max Error: 0.0017681634
+
+File: person.obj
+  Vertices: 3106
+  Method: minmax
+    MSE: 0.0000007890
+    MAE: 0.0006917113
+    Max Error: 0.0024561494
+  Method: sphere
+    MSE: 0.0000017874
+    MAE: 0.0011537879
+    Max Error: 0.0038202990
+
+File: table.obj
+  Vertices: 3148
+  Method: minmax
+    MSE: 0.0000001488
+    MAE: 0.0003067379
+    Max Error: 0.0011404978
+  Method: sphere
+    MSE: 0.0000004700
+    MAE: 0.0005989163
+    Max Error: 0.0020094692
+
+File: talwar.obj
+  Vertices: 1681
+  Method: minmax
+    MSE: 0.0000001307
+    MAE: 0.0002284037
+    Max Error: 0.0009811566
+  Method: sphere
+    MSE: 0.0000006020
+    MAE: 0.0006684992
+    Max Error: 0.0021303015
+

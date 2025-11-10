@@ -1,0 +1,53 @@
+Step 2 - Extract Vertices - 2025-11-10 11:22:34
+============================================================
+
+Processed 8 .obj files:
+
+File: branch.obj
+  Vertices: 2767
+  X range: [-0.851562, 0.849609]
+  Y range: [0.000000, 1.900391]
+  Z range: [-0.464844, 0.462891]
+
+File: cylinder.obj
+  Vertices: 192
+  X range: [-1.000000, 1.000000]
+  Y range: [-1.000000, 1.000000]
+  Z range: [-1.000000, 1.000000]
+
+File: explosive.obj
+  Vertices: 2844
+  X range: [-0.199625, 0.199625]
+  Y range: [-0.000000, 1.000000]
+  Z range: [-0.197126, 0.197126]
+
+File: fence.obj
+  Vertices: 1090
+  X range: [-0.500000, 0.500000]
+  Y range: [0.000000, 0.843170]
+  Z range: [-0.022500, 0.022500]
+
+File: girl.obj
+  Vertices: 8400
+  X range: [-0.500000, 0.500000]
+  Y range: [0.000000, 0.904419]
+  Z range: [-0.181411, 0.181411]
+
+File: person.obj
+  Vertices: 3106
+  X range: [-0.843750, 0.841797]
+  Y range: [-0.000000, 1.900391]
+  Z range: [-0.212891, 0.210938]
+
+File: table.obj
+  Vertices: 3148
+  X range: [-0.208906, 0.208906]
+  Y range: [0.000000, 0.611761]
+  Z range: [-0.500000, 0.500000]
+
+File: talwar.obj
+  Vertices: 1681
+  X range: [-0.031922, 0.031922]
+  Y range: [0.000000, 1.000000]
+  Z range: [-0.117146, 0.117146]
+

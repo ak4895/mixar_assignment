@@ -1,0 +1,62 @@
+Step 4 - Quantize Meshes - 2025-11-10 12:24:44
+============================================================
+
+BINS: 1024
+Processed 8 mesh files
+
+File: branch.obj
+  Vertices: 2767
+  Method: minmax
+    Quantized range: [0, 1023]
+  Method: sphere
+    Quantized range: [99, 819]
+
+File: cylinder.obj
+  Vertices: 192
+  Method: minmax
+    Quantized range: [0, 1023]
+  Method: sphere
+    Quantized range: [149, 873]
+
+File: explosive.obj
+  Vertices: 2844
+  Method: minmax
+    Quantized range: [0, 1023]
+  Method: sphere
+    Quantized range: [18, 947]
+
+File: fence.obj
+  Vertices: 1090
+  Method: minmax
+    Quantized range: [0, 1023]
+  Method: sphere
+    Quantized range: [98, 931]
+
+File: girl.obj
+  Vertices: 8400
+  Method: minmax
+    Quantized range: [0, 1023]
+  Method: sphere
+    Quantized range: [27, 995]
+
+File: person.obj
+  Vertices: 3106
+  Method: minmax
+    Quantized range: [0, 1023]
+  Method: sphere
+    Quantized range: [12, 872]
+
+File: table.obj
+  Vertices: 3148
+  Method: minmax
+    Quantized range: [0, 1023]
+  Method: sphere
+    Quantized range: [95, 933]
+
+File: talwar.obj
+  Vertices: 1681
+  Method: minmax
+    Quantized range: [0, 1023]
+  Method: sphere
+    Quantized range: [290, 1020]
+

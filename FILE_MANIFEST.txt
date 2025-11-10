@@ -1,0 +1,264 @@
+================================================================================
+FILE MANIFEST - 3D Mesh Normalization Project
+================================================================================
+Generated: 2025-11-10 12:35:55
+================================================================================
+
+
+Input Meshes (8samples/)
+--------------------------------------------------------------------------------
+  branch.obj                                      180,103 bytes
+  cylinder.obj                                      9,186 bytes
+  explosive.obj                                   207,327 bytes
+  fence.obj                                        61,491 bytes
+  girl.obj                                        818,527 bytes
+  person.obj                                      186,112 bytes
+  table.obj                                       299,091 bytes
+  talwar.obj                                      161,113 bytes
+
+Source Code (src/)
+--------------------------------------------------------------------------------
+  normalization.py                                 10,082 bytes
+  step1_load.py                                     4,104 bytes
+  step2_extract_vertices.py                         8,045 bytes
+  step4_quantize.py                                11,961 bytes
+  step5_reconstruct.py                             12,554 bytes
+  step6_metrics.py                                 18,503 bytes
+  step7_visualize.py                               17,734 bytes
+  step8_package.py                                 17,778 bytes
+
+Output Files (outputs/)
+--------------------------------------------------------------------------------
+  branch_error_hist_minmax.png                    127,780 bytes
+  branch_error_hist_sphere.png                    131,678 bytes
+  branch_error_sorted_minmax.png                  157,078 bytes
+  branch_error_sorted_sphere.png                  169,379 bytes
+  branch_metrics_minmax.json                          444 bytes
+  branch_metrics_sphere.json                          448 bytes
+  branch_mse_axis_minmax.png                       93,377 bytes
+  branch_mse_axis_sphere.png                       90,321 bytes
+  branch_params_minmax.json                           151 bytes
+  branch_params_sphere.json                           152 bytes
+  branch_quantized_minmax.npy                      33,332 bytes
+  branch_quantized_minmax.ply                      37,420 bytes
+  branch_quantized_minmax_sample.txt                  416 bytes
+  branch_quantized_sphere.npy                      33,332 bytes
+  branch_quantized_sphere.ply                      37,420 bytes
+  branch_quantized_sphere_sample.txt                  416 bytes
+  branch_reconstructed_minmax.ply                  37,420 bytes
+  branch_reconstructed_minmax_sample.txt              315 bytes
+  branch_reconstructed_sphere.ply                  37,420 bytes
+  branch_reconstructed_sphere_sample.txt              319 bytes
+  branch_stats.json                                   527 bytes
+  comparison_summary.txt                            1,764 bytes
+  cylinder_error_hist_minmax.png                  112,806 bytes
+  cylinder_error_hist_sphere.png                  112,611 bytes
+  cylinder_error_sorted_minmax.png                163,224 bytes
+  cylinder_error_sorted_sphere.png                160,653 bytes
+  cylinder_metrics_minmax.json                        414 bytes
+  cylinder_metrics_sphere.json                        447 bytes
+  cylinder_mse_axis_minmax.png                     91,056 bytes
+  cylinder_mse_axis_sphere.png                     89,036 bytes
+  cylinder_params_minmax.json                         127 bytes
+  cylinder_params_sphere.json                         147 bytes
+  cylinder_quantized_minmax.npy                     2,432 bytes
+  cylinder_quantized_minmax.ply                     2,594 bytes
+  cylinder_quantized_minmax_sample.txt                416 bytes
+  cylinder_quantized_sphere.npy                     2,432 bytes
+  cylinder_quantized_sphere.ply                     2,594 bytes
+  cylinder_quantized_sphere_sample.txt                416 bytes
+  cylinder_reconstructed_minmax.ply                 2,594 bytes
+  cylinder_reconstructed_minmax_sample.txt            328 bytes
+  cylinder_reconstructed_sphere.ply                 2,594 bytes
+  cylinder_reconstructed_sphere_sample.txt            328 bytes
+  cylinder_stats.json                                 482 bytes
+  explosive_error_hist_minmax.png                 124,764 bytes
+  explosive_error_hist_sphere.png                 122,208 bytes
+  explosive_error_sorted_minmax.png               162,616 bytes
+  explosive_error_sorted_sphere.png               166,590 bytes
+  explosive_metrics_minmax.json                       450 bytes
+  explosive_metrics_sphere.json                       452 bytes
+  explosive_mse_axis_minmax.png                    90,472 bytes
+  explosive_mse_axis_sphere.png                    84,174 bytes
+  explosive_params_minmax.json                        147 bytes
+  explosive_params_sphere.json                        155 bytes
+  explosive_quantized_minmax.npy                   34,256 bytes
+  explosive_quantized_minmax.ply                   49,091 bytes
+  explosive_quantized_minmax_sample.txt               416 bytes
+  explosive_quantized_sphere.npy                   34,256 bytes
+  explosive_quantized_sphere.ply                   49,091 bytes
+  explosive_quantized_sphere_sample.txt               416 bytes
+  explosive_reconstructed_minmax.ply               49,091 bytes
+  explosive_reconstructed_minmax_sample.txt            325 bytes
+  explosive_reconstructed_sphere.ply               49,091 bytes
+  explosive_reconstructed_sphere_sample.txt            325 bytes
+  explosive_stats.json                                529 bytes
+  fence_error_hist_minmax.png                     120,281 bytes
+  fence_error_hist_sphere.png                     123,964 bytes
+  fence_error_sorted_minmax.png                   152,464 bytes
+  fence_error_sorted_sphere.png                   163,792 bytes
+  fence_metrics_minmax.json                           451 bytes
+  fence_metrics_sphere.json                           453 bytes
+  fence_mse_axis_minmax.png                        88,461 bytes
+  fence_mse_axis_sphere.png                        96,082 bytes
+  fence_params_minmax.json                            136 bytes
+  fence_params_sphere.json                            162 bytes
+  fence_quantized_minmax.npy                       13,208 bytes
+  fence_quantized_minmax.ply                       12,923 bytes
+  fence_quantized_minmax_sample.txt                   416 bytes
+  fence_quantized_sphere.npy                       13,208 bytes
+  fence_quantized_sphere.ply                       12,923 bytes
+  fence_quantized_sphere_sample.txt                   416 bytes
+  fence_reconstructed_minmax.ply                   12,923 bytes
+  fence_reconstructed_minmax_sample.txt               323 bytes
+  fence_reconstructed_sphere.ply                   12,923 bytes
+  fence_reconstructed_sphere_sample.txt               323 bytes
+  fence_stats.json                                    520 bytes
+  girl_error_hist_minmax.png                      129,779 bytes
+  girl_error_hist_sphere.png                      114,183 bytes
+  girl_error_sorted_minmax.png                    165,340 bytes
+  girl_error_sorted_sphere.png                    166,908 bytes
+  girl_metrics_minmax.json                            454 bytes
+  girl_metrics_sphere.json                            447 bytes
+  girl_mse_axis_minmax.png                         89,926 bytes
+  girl_mse_axis_sphere.png                         92,278 bytes
+  girl_params_minmax.json                             141 bytes
+  girl_params_sphere.json                             159 bytes
+  girl_quantized_minmax.npy                       100,928 bytes
+  girl_quantized_minmax.ply                       163,768 bytes
+  girl_quantized_minmax_sample.txt                    416 bytes
+  girl_quantized_sphere.npy                       100,928 bytes
+  girl_quantized_sphere.ply                       163,576 bytes
+  girl_quantized_sphere_sample.txt                    416 bytes
+  girl_reconstructed_minmax.ply                   163,768 bytes
+  girl_reconstructed_minmax_sample.txt                325 bytes
+  girl_reconstructed_sphere.ply                   163,576 bytes
+  girl_reconstructed_sphere_sample.txt                325 bytes
+  girl_stats.json                                     522 bytes
+  person_error_hist_minmax.png                    130,546 bytes
+  person_error_hist_sphere.png                    132,242 bytes
+  person_error_sorted_minmax.png                  164,071 bytes
+  person_error_sorted_sphere.png                  171,214 bytes
+  person_metrics_minmax.json                          448 bytes
+  person_metrics_sphere.json                          449 bytes
+  person_mse_axis_minmax.png                       95,366 bytes
+  person_mse_axis_sphere.png                      104,123 bytes
+  person_params_minmax.json                           151 bytes
+  person_params_sphere.json                           160 bytes
+  person_quantized_minmax.npy                      37,400 bytes
+  person_quantized_minmax.ply                      43,184 bytes
+  person_quantized_minmax_sample.txt                  416 bytes
+  person_quantized_sphere.npy                      37,400 bytes
+  person_quantized_sphere.ply                      41,936 bytes
+  person_quantized_sphere_sample.txt                  416 bytes
+  person_reconstructed_minmax.ply                  43,184 bytes
+  person_reconstructed_minmax_sample.txt              320 bytes
+  person_reconstructed_sphere.ply                  41,936 bytes
+  person_reconstructed_sphere_sample.txt              320 bytes
+  person_stats.json                                   535 bytes
+  REPORT.txt                                       19,933 bytes
+  table_error_hist_minmax.png                     128,760 bytes
+  table_error_hist_sphere.png                     126,732 bytes
+  table_error_sorted_minmax.png                   163,609 bytes
+  table_error_sorted_sphere.png                   172,685 bytes
+  table_metrics_minmax.json                           450 bytes
+  table_metrics_sphere.json                           450 bytes
+  table_mse_axis_minmax.png                        90,575 bytes
+  table_mse_axis_sphere.png                        79,514 bytes
+  table_params_minmax.json                            141 bytes
+  table_params_sphere.json                            160 bytes
+  table_quantized_minmax.npy                       37,904 bytes
+  table_quantized_minmax.ply                       81,609 bytes
+  table_quantized_minmax_sample.txt                   416 bytes
+  table_quantized_sphere.npy                       37,904 bytes
+  table_quantized_sphere.ply                       81,609 bytes
+  table_quantized_sphere_sample.txt                   416 bytes
+  table_reconstructed_minmax.ply                   81,609 bytes
+  table_reconstructed_minmax_sample.txt               325 bytes
+  table_reconstructed_sphere.ply                   81,609 bytes
+  table_reconstructed_sphere_sample.txt               325 bytes
+  table_stats.json                                    525 bytes
+  talwar_error_hist_minmax.png                    122,215 bytes
+  talwar_error_hist_sphere.png                    119,198 bytes
+  talwar_error_sorted_minmax.png                  164,136 bytes
+  talwar_error_sorted_sphere.png                  175,680 bytes
+  talwar_metrics_minmax.json                          456 bytes
+  talwar_metrics_sphere.json                          449 bytes
+  talwar_mse_axis_minmax.png                       93,168 bytes
+  talwar_mse_axis_sphere.png                       85,644 bytes
+  talwar_params_minmax.json                           146 bytes
+  talwar_params_sphere.json                           159 bytes
+  talwar_quantized_minmax.npy                      20,300 bytes
+  talwar_quantized_minmax.ply                      37,010 bytes
+  talwar_quantized_minmax_sample.txt                  416 bytes
+  talwar_quantized_sphere.npy                      20,300 bytes
+  talwar_quantized_sphere.ply                      35,498 bytes
+  talwar_quantized_sphere_sample.txt                  416 bytes
+  talwar_reconstructed_minmax.ply                  37,010 bytes
+  talwar_reconstructed_minmax_sample.txt              324 bytes
+  talwar_reconstructed_sphere.ply                  35,498 bytes
+  talwar_reconstructed_sphere_sample.txt              324 bytes
+  talwar_stats.json                                   531 bytes
+
+Visualizations (outputs/visuals/)
+--------------------------------------------------------------------------------
+  branch_comparison_minmax.png                  1,249,838 bytes
+  branch_comparison_sphere.png                  1,252,074 bytes
+  branch_original_info.png                        692,858 bytes
+  branch_reconstructed_minmax_info.png            698,526 bytes
+  branch_reconstructed_sphere_info.png            698,511 bytes
+  cylinder_comparison_minmax.png                  289,652 bytes
+  cylinder_comparison_sphere.png                  306,552 bytes
+  cylinder_original_info.png                      366,565 bytes
+  cylinder_reconstructed_minmax_info.png          370,994 bytes
+  cylinder_reconstructed_sphere_info.png          374,129 bytes
+  explosive_comparison_minmax.png                 995,556 bytes
+  explosive_comparison_sphere.png                 982,771 bytes
+  explosive_original_info.png                     586,128 bytes
+  explosive_reconstructed_minmax_info.png         595,043 bytes
+  explosive_reconstructed_sphere_info.png         595,035 bytes
+  fence_comparison_minmax.png                     388,162 bytes
+  fence_comparison_sphere.png                     403,246 bytes
+  fence_original_info.png                         394,052 bytes
+  fence_reconstructed_minmax_info.png             396,650 bytes
+  fence_reconstructed_sphere_info.png             401,411 bytes
+  girl_comparison_minmax.png                    2,976,312 bytes
+  girl_comparison_sphere.png                    2,941,451 bytes
+  girl_original_info.png                        1,450,811 bytes
+  girl_reconstructed_minmax_info.png            1,455,759 bytes
+  girl_reconstructed_sphere_info.png            1,459,288 bytes
+  person_comparison_minmax.png                    832,592 bytes
+  person_comparison_sphere.png                    835,000 bytes
+  person_original_info.png                        560,925 bytes
+  person_reconstructed_minmax_info.png            570,105 bytes
+  person_reconstructed_sphere_info.png            569,019 bytes
+  summary_comparison.png                          410,026 bytes
+  table_comparison_minmax.png                     954,304 bytes
+  table_comparison_sphere.png                     969,171 bytes
+  table_original_info.png                         528,486 bytes
+  table_reconstructed_minmax_info.png             534,106 bytes
+  table_reconstructed_sphere_info.png             536,939 bytes
+  talwar_comparison_minmax.png                    701,975 bytes
+  talwar_comparison_sphere.png                    677,471 bytes
+  talwar_original_info.png                        491,510 bytes
+  talwar_reconstructed_minmax_info.png            500,251 bytes
+  talwar_reconstructed_sphere_info.png            453,462 bytes
+
+Log Files (logs/)
+--------------------------------------------------------------------------------
+  run_20251110_112107.log                             321 bytes
+  step2_20251110_112234.log                         1,255 bytes
+  step4_20251110_122444.log                         1,257 bytes
+  step5_20251110_122610.log                         2,540 bytes
+  step6_20251110_122838.log                         1,939 bytes
+  step7_20251110_123153.log                           572 bytes
+  step8_20251110_123528.log                           127 bytes
+
+Documentation
+--------------------------------------------------------------------------------
+  REPORT.txt                                       19,933 bytes
+  README.md                                        10,791 bytes
+
+================================================================================
+Total project files documented
+================================================================================
