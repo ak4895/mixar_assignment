@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+*.coverage
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Logs and outputs
+logs/
+outputs/
+
+# Sample and binary assets
+8samples/
+
+# Large numpy/pickle/ply files (keep locally or use Git LFS)
+*.npy
+*.ply
+*.npz
+
+# Secrets
+.env
+secret*.txt
